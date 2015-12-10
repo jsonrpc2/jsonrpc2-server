@@ -1,0 +1,21 @@
+{
+    "name": "jsonrpc2-server",
+    "version": "0.0.1",
+    "author": "Mau Ka Ming <ahmautom@gmail.com>",
+    "description": "JSON-RPC 2.0 compliance server",
+    "main": "lib",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jsonrpc2/jsonrpc2-server"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "devDependencies": {
+        "expect.js": "*",
+        "mocha": "*"
+    },
+	"engines": {
+        "node": "~4.0.0"
+    }
+}
