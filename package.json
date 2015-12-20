@@ -11,11 +11,14 @@
     "scripts": {
         "test": "mocha"
     },
+    "dependencies": {
+        "function-signature": "^0.2.4"
+    },
     "devDependencies": {
         "expect.js": "*",
         "mocha": "*"
     },
-	"engines": {
+    "engines": {
         "node": "~4.0.0"
     }
 }
